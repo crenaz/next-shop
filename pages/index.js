@@ -7,13 +7,13 @@ const HomePage = () => {
   return (
     <main className={styles.container}>
       <div className={styles.small}>
-        <CategoryCard image="/images/cars.jpg" name="Cars" />
-        <CategoryCard image="/images/computers.jpg" name="Computers" />
-        <CategoryCard image="https://imgur.com/Dm212HS.png" name="Cooking" />
+        <CategoryCard image="/images/cars.jpg" name="cars" />
+        <CategoryCard image="/images/computers.jpg" name="computers" />
+        <CategoryCard image="/images/cooking.jpg" name="cooking" />
       </div>
       <div className={styles.large}>
-        <CategoryCard image="https://imgur.com/qb6IW1f.png" name="Cats" />
-        <CategoryCard image="https://imgur.com/HsUfuRU.png" name="Coffee" />
+        <CategoryCard image="/images/cats.jpg" name="cats" />
+        <CategoryCard image="/images/coffee.jpg" name="coffee" />
       </div>
     </main>
   );
